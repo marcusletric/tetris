@@ -1,0 +1,8 @@
+1. Setup a mysql server
+
+2. Run contents of db_init.sql
+
+3. Install mysql driver into local repository:
+mvn install:install-file -Dfile=com.mysql.jdbc.jar -DgroupId=com.mysql -DartifactId=jdbc -Dversion=5.1.5 -Dpackaging=jar
+
+4. mvn install
