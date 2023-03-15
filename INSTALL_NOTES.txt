@@ -1,0 +1,7 @@
+1. Setup a mysql server
+
+2. Open a mysql terminal and run contents of `db_init.sql`
+
+3. Run `mvn install`
+
+4. Run `java -jar target\tetris_bxvdmv-1.0.2-jar-with-dependencies.jar`
